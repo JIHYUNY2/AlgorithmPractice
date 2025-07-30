@@ -1,4 +1,4 @@
-package bronze.p1000_AB;
+package backjoon.bronze.p1000_AB;
 import java.util.Scanner;
 
 public class Main {
@@ -8,7 +8,8 @@ public class Main {
         int A = sc.nextInt();
         int B = sc.nextInt();
 
-        
         System.out.println(A + B);
+        
+        sc.close();
     }
 }

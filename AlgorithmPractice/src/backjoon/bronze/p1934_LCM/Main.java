@@ -1,4 +1,4 @@
-package bronze.p1934_LCM;
+package backjoon.bronze.p1934_LCM;
 import java.util.Scanner;  
 
 public class Main {  
@@ -34,5 +34,7 @@ public class Main {
             int B = sc.nextInt(); 
             System.out.println(lcm(A, B));  // 최소공배수 출력
         }
+        
+        sc.close();
     }
 }

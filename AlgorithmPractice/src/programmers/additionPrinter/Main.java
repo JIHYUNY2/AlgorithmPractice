@@ -9,5 +9,7 @@ public class Main {
 
         int c = a + b;
         System.out.println(a + " + " + b + " = " + c);
+        
+        sc.close();
     }
 }

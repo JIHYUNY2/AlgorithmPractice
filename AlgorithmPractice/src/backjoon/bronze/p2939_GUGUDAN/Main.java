@@ -1,4 +1,4 @@
-package bronze.p2939_GUGUDAN;
+package backjoon.bronze.p2939_GUGUDAN;
 import java.util.Scanner;
 
 public class Main {
@@ -11,5 +11,7 @@ public class Main {
         for (int i = 1; i <= 9; i++) {
             System.out.println(N + " * " + i + " = " + (N * i));  // 출력 형식에 맞게 출력
         }
+        
+        sc.close();
     }
 }
