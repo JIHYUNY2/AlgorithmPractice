@@ -1,6 +1,6 @@
 package programmers.evenOddPrinter;
 import java.util.Scanner;
-
+//자연수 n을 입력했을 때 짝수면 n is even, 홀수면 n is odd 출력하기
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

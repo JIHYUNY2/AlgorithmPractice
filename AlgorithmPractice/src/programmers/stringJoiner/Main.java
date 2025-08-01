@@ -8,11 +8,12 @@ public class Main {
 	}
 	
 	public static String solution(String[] arr) {
-        StringBuilder sb = new StringBuilder();
-        for(String s : arr) {
-        	sb.append(s);
-        }
-        return sb.toString();
-    }
+		StringBuilder sb = new StringBuilder();
+		// 문자열을 효율적으로 다루기 위한 도구, 반복문에서 문자열 누적할 때 많이 쓰임.
+		for(String s : arr) {
+		//for (int i = 0; i < arr.length; i++) 와 동일한 반복 수행
+			sb.append(s);
+		}
+		return sb.toString();
+	}
 }
-
