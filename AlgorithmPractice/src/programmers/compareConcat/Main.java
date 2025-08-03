@@ -1,4 +1,5 @@
 package programmers.compareConcat;
+<<<<<<< HEAD
 //두 정수를 붙여서 더 큰 값 반환시키기
 public class Main {
 	public static void main(String[] args) {
@@ -16,3 +17,18 @@ public class Main {
 		return Math.max(num1, num2);
 	}
 }
+=======
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        int c = a ;
+        System.out.println(a + " + ");
+        
+        sc.close(); 
+    }
+}
+>>>>>>> 740009f9cfb07e176b136fafb4c4a5ac99e7ff3d
