@@ -10,7 +10,7 @@ public class Main {
 	public static int solution(String ineq, String eq, int n, int m) {
 		boolean result;
 		if(ineq.equals("<")) {
-			result = eq.equals("=") ? n <= m : n < m;
+			result = eq.equals("=") ? n <= m : n < m; 
 		} else {
 			result = eq.equals("=") ? n >= m : n > m;
 		}
